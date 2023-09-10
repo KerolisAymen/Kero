@@ -1,90 +1,144 @@
 body {
-    background-color: rgb(250, 249, 206);
+    background-color: rgb(255, 255, 231);
     /* background-image: url(Kerlolis\ Aymen.jpg);
     background-size: cover;
     background-repeat:repeat; */
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     margin: 0px;
+    
 }
 
-.withoutbar{
-    padding : 0px 20px ;
+.withoutbar {
+    padding: 0px 20px;
+    margin-top: 100px;
 }
+
 .contact {
-   /* border: 5px solid red ; */
-   display: block;
+    /* border: 5px solid red ; */
+    display: block;
+   
 }
 
 h1 {
     color: brown;
 }
 
-.one{
-   
-    border-bottom-color: red ;
+.one {
+
+    border-bottom-color: red;
 }
-.two{
+
+.two {
     size: 2px;
     border-bottom-color: black;
 }
-.three{
+
+.three {
     size: 2px;
-    border-bottom-color : green ;
+    border-bottom-color: green;
 }
 
-.one ,
-.two , 
-.three
-{
+.one,
+.two,
+.three {
     width: fit-content;
     border-bottom-width: 5px;
-    margin :10px ;
+    margin: 10px;
     border-radius: 10px;
     border-bottom-style: solid;
     background-color: #b4cf69;
     padding: 10px;
 
 }
-.kk
-{
+
+.kk {
 
     height: 150px;
     /* font-size: 250%; */
     overflow: auto;
 }
 
-header , footer
-{
+header, footer {
     background-color: brown;
-   margin: 0;
-    text-align:center;
+    margin: 0;
+    text-align: center;
     padding: 20px;
     font-size: 180%;
     font-weight: bold;
     color: azure;
-
+   
 }
-header
-{
+
+header {
     text-align: left;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
-.aboutme img , 
-.aboutme p
-{
+.aboutme img,
+.aboutme p {
     float: left;
 }
-.aboutme p{
+
+.aboutme p {
     width: calc(100% - 200px);
     margin: 0;
+    padding: 15px;
+    background-color:rgb(236, 236, 198);
+    border-radius: 25px;
+    box-sizing:border-box;
+}
 }
 
-.clear
-{
+.clear {
     clear: both;
 }
-.aboutme
+
+.aboutme {
+    background-color:rgb(255, 255, 231);
+    overflow: auto;
+    
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-spacing: 5px;
+}
+
+table td , 
+table th
 {
-    background-color: blue;
+    padding: 5px 15px;
+    background-color: rgb(44, 42, 27);
+    margin: 20px; 
+    border-radius: 15px;
+    color: white;
+    
+}
+table th{
+  
+    background-color: rgb(44, 42, 27);
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover
+{
+    color: red;
+}
+
+img
+{
+    position: absolute;
 }
