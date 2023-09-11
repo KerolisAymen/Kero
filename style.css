@@ -36,6 +36,7 @@ body {
 }
 .aboutme img{
     border-radius: 50%;
+    border: #a52a2a solid 5px;
 }
 
 .one,
