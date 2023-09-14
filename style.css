@@ -1,3 +1,6 @@
+
+
+
 body {
     background-color: rgb(255, 255, 231);
     /* background-image: url(Kerlolis\ Aymen.jpg);
@@ -17,9 +20,10 @@ body {
     overflow: visible;
 }
 
-.aboutme img,
-.aboutme p {
-    float: left;
+
+.aboutme  {
+    display: flex;
+    flex-direction: row;
 }
 .aboutme p,
 .contact {
@@ -135,10 +139,6 @@ color: white;
 
 a:hover{
     color: red;
-}
-
-img{
-    position: absolute;
 }
 
 *{
