@@ -41,6 +41,9 @@ body {
 .aboutme img{
     border-radius: 50%;
     border: #a52a2a solid 5px;
+    width: 200px;
+   
+    margin: auto;
 }
 
 .one,
@@ -140,6 +143,7 @@ color: white;
 a:hover{
     color: red;
 }
+
 
 *{
     box-sizing: border-box;
